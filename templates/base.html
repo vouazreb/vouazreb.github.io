@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{{ config.title }}{% endblock %}</title>
+        <!-- <style> -->
+        <!---->
+        <!--     nav ul { -->
+        <!--         list-style: none; -->
+        <!--         display: flex; -->
+        <!--         gap: 2rem; -->
+        <!--         align-items: center; -->
+        <!--     } -->
+        <!---->
+        <!--     nav li:first-child a { -->
+        <!--         font-weight: 700; -->
+        <!--         font-size: 1.2rem; -->
+        <!--     } -->
+        <!---->
+        <!--     main { -->
+        <!--         max-width: 800px; -->
+        <!--         margin: 0 auto; -->
+        <!--         padding: 3rem 2rem; -->
+        <!--     } -->
+        <!---->
+        <!--     footer { -->
+        <!--         text-align: center; -->
+        <!--         padding: 2rem; -->
+        <!--         color: #666; -->
+        <!--         border-top: 1px solid #e0e0e0; -->
+        <!--         margin-top: 4rem; -->
+        <!--     } -->
+        <!-- </style> -->
+    </head>
+    <body>
+        <header class="navbar">
+            <nav>
+                <a href="{{ config.base_url }}">{{ config.title }}</a>
+                <a href="{{ config.base_url }}">Home</a>
+                <!-- <a href="{{ config.base_url }}/research">Research</a> -->
+                <a href="{{ config.base_url }}/cv">CV</a>
+                <a href="{{ config.base_url }}/papers">Publications</a>
+            </nav>
+        </header>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <meta name="description" content="Vincent Ouazan-Reboul — Theoretical Biophysicist">
+        <meta name="author" content="Vincent Ouazan-Reboul">
+        <meta name="robots" content="index, follow">   </body>
+</html>
