@@ -5,7 +5,7 @@ template = "page.html"
 <div class="bib_entry">
 <h3 class="title">Topological Defect Engineering Enables Size, Shape Control in Self-Assembly</h3>
 
- <div class="authors">Lara Koehler, Markus Eder, Christoph Karfusehr, Vincent Ouazan-Reboul, Pierre Ronceray, Friedrich C. Simmel, Martin Lenz</div>
+ <div class="authors">Lara Koehler, Markus Eder, Vincent Ouazan-Reboul, Christoph Karfusehr, Andrey Zelenskiy, Pierre Ronceray, Friedrich C. Simmel, Martin Lenz</div>
 
 <div class="journal"><a>arXiv:2504.13073, </a><a  href="https://doi.org/10.48550/arXiv.2504.13073" target = "_blank">Preprint link</a></div>
 
