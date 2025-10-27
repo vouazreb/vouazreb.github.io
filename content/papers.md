@@ -2,21 +2,24 @@
 title = "Papers"
 template = "page.html"
 +++
-<div class="bib_entry">
-<h3 class="title">Topological Defect Engineering Enables Size, Shape Control in Self-Assembly</h3>
 
- <div class="authors">Lara Koehler, Markus Eder, Vincent Ouazan-Reboul, Christoph Karfusehr, Andrey Zelenskiy, Pierre Ronceray, Friedrich C. Simmel, Martin Lenz</div>
-
-<div class="journal"><a>arXiv:2504.13073, </a><a  href="https://doi.org/10.48550/arXiv.2504.13073" target = "_blank">Preprint link</a></div>
-
-</div>
 
 <div class="bib_entry">
 <h3 class="title">Spatial Self-Organization of Enzymes in Complex Reaction Networks</h3>
 
  <div class="authors">Vincent Ouazan-Reboul, Ramin Golestanian, Jaime Agudo-Canalejo</div>
 
-<div class="journal"><a>In preparation, 2025</a></div>
+<div class="journal"><a>arXiv:2510.21430</a><a  href="https://doi.org/10.48550/arXiv.2510.21430" target = "_blank"></div>
+
+</div>
+
+
+<div class="bib_entry">
+<h3 class="title">Topological Defect Engineering Enables Size, Shape Control in Self-Assembly</h3>
+
+ <div class="authors">Lara Koehler, Markus Eder, Vincent Ouazan-Reboul, Christoph Karfusehr, Andrey Zelenskiy, Pierre Ronceray, Friedrich C. Simmel, Martin Lenz</div>
+
+<div class="journal"><a>arXiv:2504.13073, </a><a  href="https://doi.org/10.48550/arXiv.2504.13073" target = "_blank">Preprint link</a></div>
 
 </div>
 
