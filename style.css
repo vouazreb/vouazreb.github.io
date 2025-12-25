@@ -1,0 +1,332 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  padding: 2em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+body {
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #000;
+}
+
+body {
+  color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+
+/* General layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap; /* keeps title on one line */
+}
+
+/* Base styling */
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.5rem;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* First link bold */
+.navbar a:first-child {
+  font-weight: 700;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;     /* changed from flex-start to center */
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+    padding: 0.2rem 0;
+    text-align: center;      /* center the text inside links */
+  }
+}
+/* /* Navbar container */ */
+/* .navbar { */
+/*     background-color: #f8f9fa; */
+/*     padding: 1rem 0; */
+/*     border-bottom: 1px solid #ddd; */
+/*     display: flex; */
+/*     flex-wrap: wrap;           /* allows wrapping on small screens */ */
+/*     justify-content: center;   /* center items */ */
+/*     align-items: center; */
+/*     gap: 1rem;                 /* spacing between items */ */
+/* } */
+/**/
+/* /* Ensure nav links are horizontal */ */
+/* .navbar nav { */
+/*     display: flex;                  /* horizontal layout */ */
+/*     justify-content: center;        /* center the links */ */
+/*     gap: 2rem;                      /* space between them */ */
+/* } */
+/**/
+/**/
+/* /* Style links */ */
+/* .navbar a { */
+/*     color: #fffff; */
+/*     text-decoration: none; */
+/*     font-size: 1.3rem;              /* make them larger */ */
+/*     font-family: sans-serif; */
+/*     font-weight: 400; */
+/*     transition: color 0.2s ease; */
+/* } */
+/**/
+
+/* @media (max-width: 600px) { */
+/*     .navbar a { */
+/*         font-size: 1rem; */
+/*     } */
+/* } */
+/**/
+.bib_entry {
+  margin-bottom: 0.7em;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid #ccc;
+  line-height: 1.3;
+}
+
+.bib_entry .title {
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #333;
+}
+
+.bib_entry .authors {
+  color: #444;
+  margin-bottom: 0.2em;
+}
+
+.bib_entry .journal a {
+  color: #000;
+  /* text-decoration: none; */
+}
+
+.csl-entry .journal a:link {
+  text-decoration: underline;
+}
+
+
+/**/
+/* nav { */
+/*     background: #fff; */
+/*     border-bottom: 1px solid #e0e0e0; */
+/*     padding: 1rem 2rem; */
+/*     position: sticky; */
+/*     top: 0; */
+/*     z-index: 100; */
+/* } */
+/**/
+/* nav ul { */
+/*     list-style: none; */
+/*     display: flex; */
+/*     gap: 2rem; */
+/*     align-items: center; */
+/* } */
+/**/
+/* nav a { */
+/*     text-decoration: none; */
+/*     color: #333; */
+/*     font-weight: 500; */
+/*     transition: color 0.2s; */
+/* } */
+/**/
+/* nav a:hover { */
+/*     color: #0066cc; */
+/* } */
+/**/
+/* nav li:first-child a { */
+/*     font-weight: 700; */
+/*     font-size: 1.2rem; */
+/* } */
+/**/
+/* main { */
+/*     max-width: 800px; */
+/*     margin: 0 auto; */
+/*     padding: 3rem 2rem; */
+/* } */
+/**/
+/* footer { */
+/*     text-align: center; */
+/*     padding: 2rem; */
+/*     color: #666; */
+/*     border-top: 1px solid #e0e0e0; */
+/*     margin-top: 4rem; */
+/* } */
+/**/
+/* Hover effect */
+.navbar a:hover {
+    text-decoration: underline;
+    color: #b7153d;
+}
+
+#papers .paper-title {
+    font-weight: bold;
+}
+
+/* Papers page — tighten spacing between items */
+#papers p, #papers div.bib_entry {
+    margin: 0.3rem 0;       /* much closer than default */
+    line-height: 1.3;       /* slightly tighter line spacing */
+}
+
+/* Add separator between papers if they are in .csl-entry */
+#papers .bib_entry {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.profile-container {
+  float: right;              /* float the entire block */
+  margin: 0 0 1em 1em;       /* space to the left and below */
+  text-align: right;         /* right-align contents inside */
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  opacity: 0.9;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.social-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+/* .cv dt { */
+/*   float: left; */
+/*   width: 120px; */
+/*   font-weight: bold; */
+/* } */
+/**/
+/* .cv dd { */
+/*   margin-left: 140px; */
+/*   margin-bottom: 0.5em; */
+/* } */
+
+
+.cv-entry {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+  gap: 1rem; /* space between date and content */
+}
+
+.cv-date {
+  flex: 0 0 120px;    /* fixed width column for dates */
+  text-align: right;  /* align dates to the right */
+  font-weight: 600;
+  color: #555;
+}
+
+.cv-info {
+  flex: 1;            /* take remaining width */
+}
+
+/* Mobile styles */
+/* Mobile styles */
+@media (max-width: 640px) {
+    .cv-entry {
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .cv-date {
+        margin-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    .cv-info {
+        display: block;
+    }
+}
