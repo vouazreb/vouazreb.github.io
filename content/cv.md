@@ -86,6 +86,23 @@ conference (future)</strong><br>
 </div>
 
 <div class="cv-entry">
+  <div class="cv-date">November 2025</div>
+  <div class="cv-info">
+    <strong>ENS - ESPCI Biophysics Seminar</strong><br>
+                Laboratoire de Physique de l'ENS, Paris, France
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-date">November 2025</div>
+  <div class="cv-info">
+    <strong>LPTMC seminar</strong><br>
+                Laboratoire de Physique Théorique de la Matière Condensée, Paris, France
+  </div>
+</div>
+
+
+<div class="cv-entry">
   <div class="cv-date">March 2024</div>
   <div class="cv-info">
     <strong>Theory group seminar</strong><br>
